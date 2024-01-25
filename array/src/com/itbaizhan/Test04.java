@@ -14,6 +14,12 @@ public class Test04 {
         System.arraycopy(a,0,b,0,6);
         System.out.println(Arrays.toString(b));
         System.out.println(Arrays.toString(Test.c));
+
+        System.out.println(Arrays.binarySearch(a,25));//二分查找
+
+        int[] d = new int[10];
+        Arrays.fill(d,100);//fill方法进行填充
+        System.out.println(Arrays.toString(d));
     }
     public static class Test{
         public static final int[] c = new int[6];

@@ -1,9 +1,5 @@
 package com.itbaizhan;
 //try,catch 以及常见的异常处理
-import com.sun.source.tree.InstanceOfTree;
-import com.sun.source.tree.PatternTree;
-
-import java.time.Instant;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -79,11 +75,6 @@ public class Test01 {
         }else {
             System.out.println("数据类型异常");
         }
-
-
-
-
-
     }
 }
 

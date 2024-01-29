@@ -1,7 +1,4 @@
 package com.itbaizhan;
-
-import java.util.Arrays;
-
 public class Test07 {
     public static void main(String[] args) {
         Emp e1 = new Emp( 1001,"gong",18,"教师","2019-02-14");

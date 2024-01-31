@@ -26,8 +26,8 @@ public class ListTest {
         System.out.println(list);
         System.out.println("list的大小:" + list.size());//查询大小
         System.out.println("是否包含指定的元素:" + list.contains("gong"));//查询字段
-        list.remove("gong");
-        System.out.println(list);//移除字段
+        list.remove("gong");//移除字段
+        System.out.println(list);
 
         Object[] student = list.toArray();//转换为数组
         System.out.println(Arrays.toString(student));
@@ -93,7 +93,7 @@ public class ListTest {
 //        System.out.println(list2);
 //        System.out.println(list3);
 
-        list2.retainAll(list3);
-        System.out.println(list2);//取交集
+        list2.retainAll(list3);//取交集
+        System.out.println(list2);
     }
 }

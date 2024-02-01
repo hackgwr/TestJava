@@ -53,6 +53,8 @@ public class IteratorTest {
     }
 
     //使用迭代器方法进行测试，能够删干净
+    //具体原因是因为，迭代器始终指向下一个元素，并不关心容器整体的构成或者变化
+    //所以当我们需要进行边变化边处理的操作的时候，需要使用迭代器进行操作
     public static void test03() {
         List<String> list = new ArrayList<>();
         list.add("aa");

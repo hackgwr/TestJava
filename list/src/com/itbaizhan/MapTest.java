@@ -7,10 +7,10 @@ import java.util.*;
 //map是无序，不可重复的，这里的不可重复特指键不可重复，值是可以重复的
 public class MapTest {
     public static void main(String[] args) {
-//        test01();
-//        test02();
-//        iterateList();
-//        iterateSet();
+        test01();
+        test02();
+        iterateList();
+        iterateSet();
         iterateMap();
 
     }
@@ -40,8 +40,8 @@ public class MapTest {
         m1.remove(3);//从Map容器中移除键值对
         System.out.println(m1);
 
-        Map m2 = new HashMap();
-//        Map m2 = new HashMap<>();
+        Map m2 = new HashMap<>();
+//        Map<> m2 = new HashMap<>();
 //        java6以下需要加入<>并添加键和值的类型，java7以上则不需要，<>可以省略
         m2.put("yi","1111");
         m2.put("er","2222");

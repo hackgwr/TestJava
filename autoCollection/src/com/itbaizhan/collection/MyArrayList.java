@@ -169,8 +169,8 @@ public class MyArrayList<E> implements MyList<E> {
         if(numMoved>0){
             System.arraycopy(elementDate,index+1,elementDate,index,size-index-1);
         }
+        size--;
         elementDate[size] = null;
-        size++;
     }
 }
 

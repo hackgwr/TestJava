@@ -13,6 +13,9 @@ public interface MyList <E>{
     public boolean contains(E obj);//有没有包含某个对象
     Object[] toArray();//转化为Object数组
     boolean remove(E obj);//将某个元素进行移除
+    void remove(int index);
     void clear();//清空
     List list = new ArrayList();
+
+    E get(int index);
 }

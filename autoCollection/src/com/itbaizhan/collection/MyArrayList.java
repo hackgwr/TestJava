@@ -52,6 +52,17 @@ public class MyArrayList<E> implements MyList<E> {
     }
 
     @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (int i=0;i<size;i++){
+            sb.append(elementDate[i]+",");
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
+    @Override
     public int size() {
         return size;
     }

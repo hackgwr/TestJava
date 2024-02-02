@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoCollection/autoCollection.iml" filepath="$PROJECT_DIR$/autoCollection/autoCollection.iml" />
       <module fileurl="file://$PROJECT_DIR$/connomClass/connomClass.iml" filepath="$PROJECT_DIR$/connomClass/connomClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/java20240123.iml" filepath="$PROJECT_DIR$/java20240123.iml" />
       <module fileurl="file://$PROJECT_DIR$/list/list.iml" filepath="$PROJECT_DIR$/list/list.iml" />

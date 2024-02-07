@@ -1,5 +1,6 @@
 package com.itbaizhan;
-
+//测试字符流FileReader和FileWrite
+//数据源：文件
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

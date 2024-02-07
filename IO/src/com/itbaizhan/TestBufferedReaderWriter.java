@@ -1,5 +1,6 @@
 package com.itbaizhan;
-
+//测试缓冲字符流：BufferedReader和BufferWrite
+//数据源：文件
 import java.io.*;
 
 public class TestBufferedReaderWriter {

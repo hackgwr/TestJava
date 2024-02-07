@@ -1,5 +1,6 @@
 package com.itbaizhan;
 //测试缓冲字节流：BufferedInputStream和BufferedOutputStream
+//数据源：文件
 import java.io.*;
 
 public class TestBufferedInputOutputStream {

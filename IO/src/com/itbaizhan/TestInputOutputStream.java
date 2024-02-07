@@ -16,7 +16,7 @@ public class TestInputOutputStream{
 
     public static void writeObject(){
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C:/java/object_data.txt"))){
-            ArrayList<User> list = new ArrayList<>();
+            ArrayList<User> list = new ArrayList<>();//可以利用容器一次性完成
             list.add(new User(1001,"gong","123456"));
             list.add(new User(1002,"wen","123123"));
             list.add(new User(1003,"rui","123321"));
